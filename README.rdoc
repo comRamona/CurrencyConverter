@@ -4,5 +4,5 @@
 * The data source is stored locally under assets/data.xml.
 * The web application is realised with Ruby on Rails. In order to try it, type these commands:
 
-<tt>bundle install</tt>
-<tt>rails server</tt>.
+* <tt>bundle install</tt>
+* <tt>rails server</tt>.
