@@ -14,6 +14,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'bootstrap'
 gem 'puma'
+gem 'sqlite3'
 gem 'nokogiri'
 
 # Use jquery as the JavaScript library
