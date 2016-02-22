@@ -1,8 +1,8 @@
 == README
 
-*The ExchangeRate interface uses 'nokogiri' for XML parsing. (app/helpers/cuurency_helpers.rb)
-*The data source is stored locally under assets/data.xml.
-*The web application is realised with Ruby on Rails. In order to try it, type these commands:
+* The ExchangeRate interface uses 'nokogiri' for XML parsing. (app/helpers/cuurency_helpers.rb)
+* The data source is stored locally under assets/data.xml.
+* The web application is realised with Ruby on Rails. In order to try it, type these commands:
 
 <tt>bundle install</tt>
 <tt>rails server</tt>.
