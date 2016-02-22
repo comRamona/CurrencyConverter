@@ -1,0 +1,23 @@
+<div class="center jumbotron">
+  <h1>Welcome to the Currency Converter!</h1>
+  <br>
+  <div class="row">
+  <div class="col-md-4 col-md-offset-4">
+  <%= form_tag("/show", method: "get") do %>
+  <%= date_select(:x,:date) %>
+  
+  <%= label_tag(:base, "From: ") %>
+  <%= select_tag(:base, options_for_select(["USD","JPY","BGN","CZK","DKK","GBP","HUF","PLN","RON","SEK","CHF","NOK","HRK","RUB","TRY","AUD","BRL","CAD","CNY","HKD","IDR","ILS","INR","KRW","MXN","NZD","PHP","SGD","THB","ZAR","EUR"]))
+  %>
+  <%= label_tag(:counter, "To:   ") %>
+  <%= select_tag(:counter, options_for_select(["USD","JPY","BGN","CZK","DKK","GBP","HUF","PLN","RON","SEK","CHF","NOK","HRK","RUB","TRY","AUD","BRL","CAD","CNY","HKD","IDR","ILS","INR","KRW","MXN","NZD","PHP","SGD","THB","ZAR","EUR"]))
+  %>
+  <%= label_tag(:amount, "Amount:") %>
+  <%= text_field_tag(:amount) %>
+  <%= submit_tag "Convert", :class => "btn btn-lg btn-primary" %>
+<% end %>
+  </div>
+</div>
+
+ 
+</div>
